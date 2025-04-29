@@ -1,6 +1,3 @@
-# HospitalMnagementSystem
-
----
 
 # 🏥 Hospital Management System
 
@@ -8,56 +5,107 @@
 - **Zain Aftab FA24-BSE-155**  
 - **Musfirah Qadeer FA24-BSE-101**  
 - **Zuhaa Wasim FA24-BSE-119**
+---
+
+# 🏥 Hospital Management System (HMS)
+
+A simple Hospital Management System built in Java using Object-Oriented Programming (OOP), File Handling, and GUI (Swing).  
+This project is designed for educational purposes and fulfills the requirements of a beginner-level OOP course.
 
 ---
 
-## 📋 Project Overview
+## 💡 Features
 
-The **Hospital Management System** is a simple yet effective software solution designed to streamline various administrative and medical processes within a hospital. This project offers a basic foundation for handling patient management, doctor assignments, appointment scheduling, and billing — all in one place.
-
-Our system aims to improve efficiency, reduce paperwork, and provide an organized way to store, retrieve, and manage hospital data.
-
----
-
-## ⚙️ Key Features
-
-- **Patient Management:** Add, update, search, and delete patient records easily.
-- **Doctor Management:** Manage doctor details including specialization and availability.
-- **Appointment Scheduling:** Assign doctors to patients and schedule appointments efficiently.
-- **Billing System:** Generate simple bills based on services availed by the patients.
-- **User-Friendly Interface:** Simple menus and clear options for seamless navigation.
-- **Data Storage:** Structured handling of patient and doctor information (file-based or in-memory storage depending on implementation).
+✅ Login system (Admin only)  
+✅ Patient management (Add patient records)  
+✅ Doctor management (Add doctor records)  
+✅ Book appointments  
+✅ Generate billing for patients  
+✅ File handling for data storage (no database used)  
+✅ Simple Java Swing GUI  
+✅ Easy and beginner-friendly code
 
 ---
 
-## 🛠️ Technologies Used
+## 🔧 Technologies Used
 
-- **Programming Language:** C++ / Python / Java (depending on your implementation — you can update it)
-- **Data Storage:** Basic file handling or arrays (no database for now — ideal for beginners)
-
----
-
-## 🚀 How to Run
-
-1. Clone or download the repository.
-2. Compile the code using your preferred compiler (g++, javac, etc.).
-3. Run the executable / Python script.
-4. Follow on-screen instructions to navigate through the system.
+- Java (JDK 8+)
+- Java Swing (GUI)
+- File Handling (.txt files)
+- IntelliJ IDEA or any Java IDE
 
 ---
 
-## 📈 Future Enhancements
+## 🧱 Project Structure
 
-- Adding login/authentication system for admin and staff.
-- Incorporating real-time database connectivity.
-- Improving GUI with frameworks like Tkinter, JavaFX, or web-based frontend.
-- Reporting modules for analytics (number of patients served, doctors' workload, etc.)
+| File/Folder         | Description                           |
+|---------------------|---------------------------------------|
+| Patient.java         | Patient class with save/load methods |
+| Doctor.java          | Doctor class                         |
+| Appointment.java     | Appointment class                    |
+| Billing.java         | Billing class                        |
+| LoginFrame.java      | GUI login screen                     |
+| DashboardFrame.java  | GUI dashboard with main options      |
+| PatientForm.java     | Form to add patients                 |
+| DoctorForm.java      | Form to add doctors                  |
+| AppointmentForm.java | Book appointment screen              |
+| BillingForm.java     | Billing form                         |
+| Main.java            | Launches the application             |
+| patients.txt         | Stores patient records               |
+| doctors.txt          | Stores doctor records                |
+| appointments.txt     | Stores appointment data              |
+| billing.txt          | Stores billing data                  |
 
 ---
 
-## 📄 License
+## 🔐 Login Credentials
 
-This project is built for academic purposes. Feel free to contribute or modify it according to your needs. ⭐
+- Username: `admin`  
+- Password: `admin`
+
+(Default hardcoded in LoginFrame.java)
 
 ---
+
+## ▶️ How to Run
+
+1. Clone the repository or download the ZIP.
+2. Open in IntelliJ IDEA (or any Java IDE).
+3. Make sure all .java files are inside the src folder or the same package.
+4. Run Main.java to launch the system.
+5. Use the GUI to manage patients, doctors, appointments, and billing.
+
+---
+
+## 📁 Data Storage
+
+This project uses simple file handling instead of a database.  
+Text files like patients.txt, doctors.txt, etc. are automatically created in the root folder when data is saved.
+
+---
+
+## 📸 Screenshots
+
+You can add screenshots later, such as:
+
+- Login screen
+- Dashboard
+- Patient/Doctor forms
+
+---
+
+## 📚 Concepts Demonstrated
+
+- Object-Oriented Programming
+  - Classes & Objects
+  - Encapsulation
+  - Inheritance/Association (between entities)
+- File Handling (BufferedReader & BufferedWriter)
+- Java Swing GUI
+- Layered structure (backend + GUI frontend)
+
+---
+
+
+
 
